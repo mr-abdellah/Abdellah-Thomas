@@ -1,0 +1,39 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: #eff7f6;
+    text-align: center;
+    width: 100%;
+}
+header{
+    padding: 15px;
+}
+.logo{
+    margin-right: auto;
+    font-size: 25px;
+    font-weight: bold;
+}
+#nav-bar {
+    display: flex;
+    
+    border-bottom: 2px solid black;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
+}
+a {
+    text-decoration: none;
+    color: black;
+}
+#header-img{
+    height: 450px;
+}
+#About{
+   border-top: 2px solid black;
+}
+#About .about{
+    font-size: 30px;
+    font-weight: bold;
+}
